@@ -10,6 +10,11 @@
  */
 
 // Part 1 answer 👇🏻 ...
+let fullName = "Hasan Ali Albuloushi";
+let yearOfBirth = 1993;
+let hobby = "Playing Video Games";
+let funFact = "I Love playing with Cats";
+const image = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nytimes.com%2F2021%2F09%2F07%2Fscience%2Fcat-stripes-genetics.html&psig=AOvVaw3SHSQwbapEenHgX5m_EJEp&ust=1694532605894000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCOjdj4TwooEDFQAAAAAdAAAAABAg"
 
 
 
@@ -29,9 +34,9 @@
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
+ const fullNameString = `My name is ${fullName}`;
+ const yearOfBirthString = `I am ${2023 - yearOfBirth}`;
+ const hobbyString = `My hobby is ${hobby}`;
 
 
 
@@ -45,14 +50,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars ++;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars --;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars = stars + 2;
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars = stars - 2;
 }
